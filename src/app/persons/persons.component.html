@@ -1,0 +1,8 @@
+<h2 data-test = 'person-question'>Which person do you want to greet?</h2>
+<div>
+    <label for="name" data-test = 'label-name'>name: </label>
+    <input  type="text"(keypress)="omit_special_char($event)" mdInput id="name" [(ngModel)]="name" placeholder="name" data-cy="name-input">
+    <button type="button" id="submitted" (click)="onSubmit()" data-cy="submit-button">Submit</button>
+</div>
+
+
