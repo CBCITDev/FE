@@ -34,7 +34,6 @@ module.exports = function (config) {
     },
     reporters: ['progress', 'kjhtml'],
     browsers: [
-      'Chrome',
       'ChromeHeadlessPuppeteer'
     ],
     restartOnFileChange: true,
