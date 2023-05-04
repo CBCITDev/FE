@@ -29,7 +29,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Build:prod
-      run: npm build:prod
+      run: npm run build
     - name: Test:prod
       run: npm test:prod
     - run: npm run lint
