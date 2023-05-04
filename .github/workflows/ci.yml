@@ -28,8 +28,8 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-    - name: Build
-      run: npm run build
-    - name: Test
-      run: npm test
+    - name: Build:prod
+      run: npm run build:prod
+    - name: Test:prod
+      run: npm test:prod
     - run: npm run lint
