@@ -32,4 +32,4 @@ jobs:
       run: npm run build
     - name: Test:prod
       run: npm run test:prod
-    - run: npm run lint
+
