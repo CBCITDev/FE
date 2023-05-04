@@ -37,12 +37,12 @@ module.exports = function (config) {
       'Chrome',
       'ChromeHeadlessPuppeteer'
     ],
+    restartOnFileChange: true,
     customLaunchers: {
         ChromeHeadlessPuppeteer: {
             base: 'ChromeHeadless',
             flags: ['--no-sandbox', '--disable-gpu']
         }
     }
-    restartOnFileChange: true
   });
 };
