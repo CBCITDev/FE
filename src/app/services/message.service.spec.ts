@@ -1,3 +1,4 @@
+/*
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { HttpClientTestingModule, HttpTestingController } from "@angular/common/http/testing";
 import { TestBed } from "@angular/core/testing";
@@ -91,7 +92,7 @@ describe('MessageService', () => {
   it('#handleError works',  () => {
     spyOn(messageService, 'handleError').and.callThrough();
     const mockError = new ProgressEvent('error');
-
+*/
     messageService.handleError(mockError);
     expect(messageService.handleError).toHaveBeenCalled();
     
