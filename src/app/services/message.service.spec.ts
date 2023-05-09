@@ -7,10 +7,6 @@ import { defer, of, take, throwError } from "rxjs";
 import { Message } from "../message";
 import { MessageService } from "./message.service";
 
-/* export function asyncError<T>(errorObject: any) {
-  return defer(() => Promise.reject(errorObject));
-} */
-
 describe('MessageService', () => {
 
     let messageService : MessageService;
